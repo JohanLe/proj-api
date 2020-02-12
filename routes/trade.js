@@ -34,7 +34,7 @@ router.post("/buy", async (req, res) => {
         console.log("ERROR!: " + err);
         res.json({
             status: err.status,
-            msg: err.msg
+            msg: "Trade "
         });
     }
 })
